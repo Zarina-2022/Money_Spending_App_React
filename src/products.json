@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Chewing gum",
+        "price": 0.5,
+        "image": "https://img.grouponcdn.com/deal/3S4LFwkvQXDrPysZYh7jNG7xLuq4/3S-818x490/v1/t600x362.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Shoe",
+        "price": 35,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRieOMXWOO5u8o4J90Abs-c28KZQU_ZqshwOQ&usqp=CAU"
+    },
+    {
+        "id": 5,
+        "title": "Skirt",
+        "price": 7.5,
+        "image": "https://images.houseoffraser.co.uk/images/products/53054408_4pl.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Pencils",
+        "price": 4,
+        "image": "https://www.leuchtturm1917.com/media/productdetail/700x700/801153/pencil.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Notebook",
+        "price": 2.3,
+        "image": "https://sc02.alicdn.com/kf/Hb3f446f7fb144ccb9000d7e958653e5cb.png"
+    },
+    {
+        "id": 8,
+        "title": "Flowers",
+        "price": 1.9,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKjUPIyDXHMHNojL-_MMAc7tx8VNuS7l3o7Q&usqp=CAU"
+    },
+    {
+        "id": 9,
+        "title": "Spoon",
+        "price": 0.3,
+        "image": "https://hardwaremart.lk/wp-content/uploads/2022/04/ZZ067.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Car",
+        "price": 23000,
+        "image": "https://cars.usnews.com/static/images/Auto/izmo/i159615234/2023_acura_integra_angularfront.jpg"
+    }
+]

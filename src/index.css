@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #5f84af;
+  padding-top: 60px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  background: linear-gradient(to bottom, rgb(15, 15, 119), rgb(159, 159, 223));
+  color: #ddd;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header span {
+  font-weight: bold;
+  margin: 0px 10px;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.product {
+  padding: 15px;
+  background: #fff;
+  margin-bottom: 20px;
+  width: 24%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product img {
+  width: 70%;
+  height: 60%;
+  margin: auto;
+}
+
+.product .title {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.product .price {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px;
+}
+.actions{
+  display: flex;
+  justify-content: center;
+}
+.actions button[disabled]{
+  opacity: .3;
+  cursor: not-allowed;
+}
+.removeBtn {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: #b81515;
+  color: aliceblue;
+  padding: 5px 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.addBtn {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: #158a2e;
+  color: rgb(245, 237, 237);
+  padding: 5px 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.amount{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 5px;
+}
+
+.resetDiv {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.resetBtn {
+  margin: 20px auto;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #dad6d6;
+  background-color: rgb(17, 17, 131);
+  cursor: pointer;
+}
+
